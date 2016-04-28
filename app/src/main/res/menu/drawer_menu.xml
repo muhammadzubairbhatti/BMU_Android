@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/home"
+            >
+        </item>
+        <item
+            android:id="@+id/message_id"
+            android:title="Message"
+            android:icon="@drawable/message"
+            >
+        </item><item
+        android:id="@+id/setting_id"
+        android:title="Setting"
+        android:icon="@drawable/settings"
+        >
+    </item>
+    </group>
+    <item
+        android:title="Packages"
+        >
+        <menu>
+            <item
+                android:title="Umrah Packages"
+                android:id="@+id/umrah"
+                android:icon="@drawable/users_group_icon"></item>
+
+            <item
+                android:title="Hajj Packages"
+                android:id="@+id/hajj"
+                android:icon="@drawable/users_group_icon"></item>
+
+            <item
+                android:title="Ziyarat Packages"
+                android:id="@+id/ziyarat"
+                android:icon="@drawable/users_group_icon"></item>
+        </menu>
+    </item>
+
+    <item
+        android:title="Social"
+        >
+        <menu>
+            <item
+                android:title="Login"
+                android:id="@+id/add_group_id"
+                android:icon="@drawable/users_group_icon"></item>
+
+            <item
+                android:title="Share"
+                android:id="@+id/share_id"
+                android:icon="@drawable/share"></item>
+        </menu>
+    </item>
+
+</menu>

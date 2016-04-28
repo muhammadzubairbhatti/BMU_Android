@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Book My Umrah</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="card_one">This Is The First Card \n\n</string>
+    <string name="card_two">This Is The Second Card \n\n</string>
+    <string name="search">Search Your Desired Packages</string>
+    <string name="select_days">Select Days</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="select_days">
+        <item>10 Days</item>
+        <item>15 Days</item>
+        <item>20 Days</item>
+        <item>25 Days</item>
+        <item>30 Days</item>
+
+    </string-array>
+    <string-array name="package_titles">
+        <item>Umrah 6 Nights -</item>
+        <item>Umrah 8 Nights -</item>
+        <item>Umrah 12 Nights -</item>
+        <item>Umrah 10 Nights -</item>
+        <item>Umrah 14 Nights 3 Star package 6 _ Awais Holiday (4 Star)</item>
+        <item>Umrah 21 Nights 3 Star package 1 _ Ahmed Holiday (4 Star)</item>
+        <item>Umrah 5 Nights 5 Star package 6 _ Ali Holiday (4 Star)</item>
+        <item>Umrah 15 Nights 4 Star package 9 _ Amir Holiday (4 Star)</item>
+        <item>Umrah 60 Nights 5 Star package 8 _ Rehman Holiday (4 Star)</item>
+        <item>Umrah 12 Nights 3 Star package 2 _ Rehman Holiday (4 Star)</item>
+    </string-array>
+    <string-array name="package_expert_rating">
+        <item>Expert Rating : 3.4/5</item>
+        <item>Expert Rating : 4.4/5</item>
+        <item>Expert Rating : 3.4/5</item>
+        <item>Expert Rating : 4.5/5</item>
+        <item>Expert Rating : 3.9/5</item>
+        <item>Expert Rating : 4.4/5</item>
+        <item>Expert Rating : 4.4/5</item>
+        <item>Expert Rating : 3.9/5</item>
+        <item>Expert Rating : 3.4/5</item>
+        <item>Expert Rating : 4.8/5</item>
+
+    </string-array>
+
+    <string-array name="package_customer_rating">
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.4/5</item>
+        <item>Customer Rating : 4.9/5</item>
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.8/5</item>
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.4/5</item>
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.5/5</item>
+        <item>Customer Rating : 3.9/5</item>
+
+    </string-array>
+
+    <!--Second Array Strings-->
+
+    <string-array name="package_titles1">
+        <item>6 Nights 4 Star package 5 _ Adil Holiday (4 Star)</item>
+        <item>8 Nights 3 Star package 3 _ Farrukh Holiday (4 Star)</item>
+        <item>12 Nights 4 Star package 6 _ Gohar Holiday (4 Star)</item>
+        <item>10 Nights 5 Star package 4 _ Hammad Holiday (4 Star)</item>
+        <item>14 Nights 3 Star package 6 _ Awais Holiday (4 Star)</item>
+        <item>21 Nights 3 Star package 1 _ Ahmed Holiday (4 Star)</item>
+        <item>5 Nights 5 Star package 6 _ Ali Holiday (4 Star)</item>
+        <item>15 Nights 4 Star package 9 _ Amir Holiday (4 Star)</item>
+        <item>60 Nights 5 Star package 8 _ Rehman Holiday (4 Star)</item>
+        <item>12 Nights 3 Star package 2 _ Rehman Holiday (4 Star)</item>
+    </string-array>
+    <string-array name="package_expert_rating1">
+        <item>Expert Rating : 3.4/5</item>
+        <item>Expert Rating : 4.4/5</item>
+        <item>Expert Rating : 3.4/5</item>
+        <item>Expert Rating : 4.5/5</item>
+        <item>Expert Rating : 3.9/5</item>
+        <item>Expert Rating : 4.4/5</item>
+        <item>Expert Rating : 4.4/5</item>
+        <item>Expert Rating : 3.9/5</item>
+        <item>Expert Rating : 3.4/5</item>
+        <item>Expert Rating : 4.8/5</item>
+
+    </string-array>
+
+    <string-array name="package_customer_rating1">
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.4/5</item>
+        <item>Customer Rating : 4.9/5</item>
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.8/5</item>
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.4/5</item>
+        <item>Customer Rating : 3.4/5</item>
+        <item>Customer Rating : 4.5/5</item>
+        <item>Customer Rating : 3.9/5</item>
+
+    </string-array>
+
+    <string-array name="pkg_name">
+
+        <item>5 star</item>
+        <item>4 star</item>
+        <item>3 star</item>
+        <item>economy</item>
+
+
+    </string-array>
+    <string-array name="No_Days">
+
+        <item>0 To 7 days</item>
+        <item>8 To 14 </item>
+        <item>15 To 21 </item>
+        <item>22 To 28</item>
+        <item>29 To 35</item>
+    </string-array>
+    <string-array name="pkg_city">
+
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>faisal abad</item>
+        <item>other</item>
+    </string-array>
+
+
+</resources>

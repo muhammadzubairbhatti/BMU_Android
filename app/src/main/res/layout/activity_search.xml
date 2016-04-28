@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:orientation="vertical"
+tools:context="bmu.com.spinner.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  Stay- No of days"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/t"
+    android:drawableLeft="@drawable/p2"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:paddingTop="7dp"
+    android:singleLine="false"
+    android:textColor="#000000"/>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:textAlignment="textStart"
+    android:text="Select days"
+    android:drawableRight="@drawable/dow"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:id="@+id/days"
+    android:spinnerMode="dialog"
+    />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp" />
+<TextView
+    android:paddingTop="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="  Package class"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:drawableLeft="@drawable/p2"
+    />
+<Button
+    android:id="@+id/pak_class"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:textAlignment="textStart"
+    android:text="Select Package"
+    android:drawableRight="@drawable/dow"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:textColor="#000000" />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="  Package Location"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:paddingTop="7dp"
+    android:textColor="#000000"
+    android:drawableLeft="@drawable/p2"
+    />
+<Button
+    android:id="@+id/city"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:textAlignment="textStart"
+    android:text="select city"
+    android:drawableRight="@drawable/dow"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:textColor="#000000" />
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="  Package Price"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:drawableLeft="@drawable/p2"
+
+    />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:textAlignment="textStart"
+    android:text="Select Price"
+
+    android:drawableRight="@drawable/dow"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:textColor="#000000"
+    android:id="@+id/price"
+    />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:text="Search "
+    android:background="#000000"
+    android:textColor="#ffffff"
+    android:id="@+id/search"
+
+    />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=" recently search"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:drawableLeft="@drawable/p2"
+
+    />
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:textAlignment="textStart"
+    android:text="recent search"
+    android:drawableRight="@drawable/dow"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:textColor="#000000"
+    android:id="@+id/recentresearch"
+    android:editable="false"
+    />
+
+</LinearLayout>
